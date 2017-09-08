@@ -12,7 +12,7 @@ import android.os.Handler;
  * @description
  */
 
-public class Login2PresenterImp extends BasePresenter<Login2Act> implements Login2Presenter
+public class Login2PresenterImp extends BasePresenter<Login2ActView> implements Login2Presenter
 {
     @Override
     public void login(String userName, String passWord)

@@ -10,7 +10,7 @@ import android.widget.Toast;
 
 import com.ss007.androidmvpsample.R;
 
-public class Login2Act extends MVPBaseActivity<Login2Act,Login2PresenterImp> implements Login2ActView
+public class Login2Act extends MVPBaseActivity<Login2ActView,Login2PresenterImp> implements Login2ActView
 {
     private final static String TAG = Login2Act.class.getSimpleName();
 

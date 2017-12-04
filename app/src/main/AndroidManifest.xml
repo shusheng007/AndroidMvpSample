@@ -9,19 +9,18 @@
 		android:roundIcon="@mipmap/ic_launcher_round"
 		android:supportsRtl="true"
 		android:theme="@style/AppTheme">
-		<activity android:name=".MainActivity">
+		<activity android:name=".enhancedMvp.view.MainActivity">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN"/>
 
 				<category android:name="android.intent.category.LAUNCHER"/>
 			</intent-filter>
 		</activity>
-		<activity android:name=".mvp.Login1Act">
-		</activity>
-		<activity android:name=".BaseActivity">
-		</activity>
-		<activity android:name=".enhancedMvp.Login2Act">
-		</activity>
+		<activity android:name=".mvp.Login1Act"/>
+		<activity android:name=".BaseActivity"/>
+		<activity android:name=".enhancedMvp.view.Login2Act"/>
+		<activity android:name=".enhancedMvp.view.MyFamilyAct"/>
+
 	</application>
 
 </manifest>

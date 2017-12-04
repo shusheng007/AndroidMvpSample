@@ -61,7 +61,6 @@ public class Login1Act extends BaseActivity implements Login1ActView
                         btnLogin.setText("Loginning ...");
                         mPresenter.login(userName.getText().toString(), passWord.getText().toString());
                     }
-
                     break;
                 default:
                     break;

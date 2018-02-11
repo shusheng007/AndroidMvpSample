@@ -6,3 +6,5 @@ when your app make a request to remote server,it need a period of time to back ,
 
 If you not allow user cancle a operation before it finished(eg: call a remote server and wait until the result back)
 the normal version is qualified,but I recommend you use the enhance version.
+
+[中文教程地址](http://blog.csdn.net/shusheng0007/article/details/77726636 "中文教程地址")
